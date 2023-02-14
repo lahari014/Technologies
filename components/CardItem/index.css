@@ -1,0 +1,69 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  border-radius: 10px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  border-radius: 10px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  border-radius: 10px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  border-radius: 10px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+/* Write CSS code here. */
+.pic {
+  align-self: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .card-1 {
+    width: 50%;
+    height: 35%;
+    margin: 30px;
+  }
+  .card-2 {
+    width: 50%;
+    height: 35%;
+    margin: 30px;
+  }
+  .card-3 {
+    width: 50%;
+    height: 35%;
+    margin: 30px;
+  }
+  .card-4 {
+    width: 50%;
+    height: 35%;
+    margin: 30px;
+  }
+  .pic {
+    margin-bottom: 45px;
+  }
+}
